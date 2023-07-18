@@ -1,0 +1,109 @@
+Question 1. Programming language kya hoti hai. Machine language and high level language me difference btao. Explain with example
+
+
+Ans 1. Programming language set of instruction, symbol and syntex hote hai ye ek computer based language hoti hai jiska use software develop krne ke liye kiya jata hai.
+
+(1) Machine language - machine language ko low level language bhi kha jata hai ye user friendly nhi hoti aur ye binary number mein work krti hai for example 0 and 1.
+
+(2) High level language - high level language ek easy to learn language hoti hai iska management machine language se easy hota hai aur isme bhot sari language hoti hai for example
+    java, python, java-script, c, c++ etc.
+
+
+
+
+Question 5. Vanilla JavaScript kya hota hai ?
+
+Ans 5. jb hum pure javascript use krte hai bina framework aur library ke use vanilla javascript khte hai.
+
+
+
+
+Question 3. Software development ke difference stages ke bare me btao. SDLC(Software development life cycle)
+    requirement gathering & analysis
+    Design
+    Development - Back-end & front-end
+    Testing - Developers/testers testing and Client testing
+    Production deployment/Live
+
+
+Ans 3. (1) requirement gathering & analysis = phle to hume ye malum hona chahiye jo bhi software hum develope krne ja rhe hai vo kaam kese krega aur uski need kya rhegi.
+
+       (2) Design = software ka design kya rhega.
+
+       (3) Development - Back-end & front-end = uska front-end kesa rhega aur kesa dikhega aur back-end kese kaam krega.
+
+       (4) Testing - Developers/testers testing and Client testing = software banne ke baad developer use test krenge aur phir client side se bhi test kiya jyga.
+
+       (5) Production deployment/Live = software ko market mein laya jyga aur result dekhe jyge.
+
+
+
+
+
+Question 6. Real life example of HTML, CSS and JavaScript ?
+
+
+Ans 6. html ek body structure tyyar krta hai jese ek car bnti hai to phle uski body tyyar hoti hai vo kaam website ke hisb se html ka hota hai phir car pe light aur color ye sb kiya
+       jata hai jese uski styling vo kaam css ka hota hai aur phir usme engine, gair break lgaye jate hai website mein vo kaam javascript ka hota hai.
+
+
+
+
+Question 7. JavaScript history and ECMAScript kya hoti hai ?
+
+Ans 7. Javascript ko Brendan Eich ne 1995 mein bnaya tha phle javascript ko mocha naam se jana jata tha phir iska naam livescript krdiya gya. ECMAScript ko European computer manufacturer
+       association kha jata hai isne javascript ko 1997 mein standard bna diya tha.
+
+
+
+
+Question 8. IDE kya hota hai ? Explain with example.
+
+Ans 8. integrated developement environment ek graphical user interface hota hai jiski help se hum code clean aur clear kr skte hai hr programming language ke alag IDE hote hai for example 
+       hum javascript mein visual studio use krte hai python mein spider use krte hai aese hi hr language mein IDE hote hai.
+
+
+
+
+Question 9. Separation of concern principle kya hota hai ? With real life example. 
+
+
+Ans 9. Separation of concern principle ka mtlb hota hai ki code ko seprate rkhkr kaam krna jisse code clean dikhe for example hum ghar mein sari daal mix krke nhi rkhte jiska jitna use
+       hota hai utna use main le lete hai.
+
+
+
+
+Question 10. Explain below features of JavaScript 
+    a. High Level language
+    b. Garbage Collector
+    c. Multi Paradgim
+    d. Platform Independent
+
+
+
+Ans 10. (a) High Level language = high level language ek easy to learn language hoti hai iska management machine language se easy hota hai aur isme bhot sari language hoti hai for example
+    java, python, java-script, c, c++ etc.
+
+        (b) Garbage Collector = Garbage collector ka kaam hota hai code ko clean rkhna ye javascript mein inbuit hota hai iska kaam hota hai unused memory ko remove krna jb memory size                                                                   zyada hoti hai to garbage collector slow kaam krta hai aur memory size km hoti hai to fast kaam krta hai.
+
+        (c) Multi Paradgim = Multi Paradigm ka matlb hai ki javascript different style of programming support karti hai.
+
+        (d)  Platform Independent = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
