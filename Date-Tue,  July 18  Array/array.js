@@ -7,7 +7,7 @@
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] % 2 === 0) {
 //     console.log("EVEN");
-//   } else if (numbers[i] % 2 === 1) {
+//   } else{
 //     console.log("ODD");
 //   }
 // }
@@ -51,27 +51,27 @@
 
 // Ans 5.
 
-// let max = [10, 20];
-// if (max[1] > max[2]) {
-//   console.log("yy");
-// } else if (max[2] > max[1]) {
-//   console.log("no");
-// } else {
-//   console.log("both r equal");
-// } ??????????
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let max = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > max) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
 
 // Question 6.
 
 // Ans 6.
 
-// let max = [10, 20];
-// if (max[1] > max[2]) {
-//   console.log("yy");
-// } else if (max[2] > max[1]) {
-//   console.log("no");
-// } else {
-//   console.log("both r equal");
-// }   ????????????
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let min = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     min = arr[i];
+//   }
+// }
+// console.log(min);
 
 // Question 7.
 
@@ -83,24 +83,28 @@
 
 // Ans 8.
 // let num = [1, 2, 3, 4, 5];
-// console.log(num[4]);
+// console.log(num[num.length - 1]);
 
 // Question 9.
 
 // Ans 9.
 // let numbers = [100, 10, 200, 300, 400, 500];
+// let count = 0;
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] > 100) {
-//     console.log(numbers[i]);
+//     ++count;
 //   }
 // }
+// console.log(count);
 
 // Question 10.
 
 // Ans 10.
 // let numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 71];
+// let count = 0;
 // for (let i = 0; i < numbers.length; i++) {
 //   if (numbers[i] > 20 && numbers[i] % 2 === 0) {
-//     console.log(numbers[i]);
+//     count = count + 1;
 //   }
 // }
+// console.log(count);
