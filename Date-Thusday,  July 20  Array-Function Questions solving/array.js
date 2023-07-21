@@ -2,16 +2,24 @@
 
 // Ans 1.
 
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// let ascd = arr[0];
-// for (let i = 1; i < arr.length; i++) {
-//   if (ascd < arr[i]) {
-//     console.log("Yes it is in Ascending order");
-//   } else {
-//     console.log("No");
-//   }
-//   ++ascd;
-// }
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let flag = true;
+for (let i = 0; i < arr.length - 1; i++) {
+  let ascd = arr[i];
+  let ascd2 = arr[i + 1];
+  if (ascd < ascd2) {
+    continue;
+  } else {
+    flag = false;
+    break;
+  }
+}
+if (flag) {
+  console.log("In ascending ");
+} else {
+  console.log("not");
+}
 
 // Question 2. Check if the array is sorted in descending order.
 
@@ -77,15 +85,11 @@
 
 // Question 9. Create an array of names and sort it using a sort function (do it for practice then we will discuss in the class)
 
-// Ans 9. ??
+// Ans 9.
 
-// Question 10. Create an empty Array
+// let arr = ["shaad", "wecode Academy", "Friend", "Zaid", "Hello"];
 
-// Ans 10.
-// let arr = [];
-// console.log(arr);
-
-// Question 11. Now perform the below actions
+// Question 10. Now perform the below actions
 
 // Push 3 numbers
 // Unshift 3 numbers
@@ -96,8 +100,8 @@
 
 // Now check the result and match
 
-// Ans 11.
-// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// Ans 10.
+// let array = [];
 // array.push(50);
 // array.push(50);
 // array.push(50);
