@@ -2,47 +2,61 @@
 
 // Ans 1.
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-let flag = true;
-for (let i = 0; i < arr.length - 1; i++) {
-  let ascd = arr[i];
-  let ascd2 = arr[i + 1];
-  if (ascd < ascd2) {
-    continue;
-  } else {
-    flag = false;
-    break;
-  }
-}
-if (flag) {
-  console.log("In ascending ");
-} else {
-  console.log("not");
-}
+// let arr = [1, 2, 3, , 40, 4, 5, 6, 7, 8, 9];
+// let flag = true;
+// for (let i = 0; i < arr.length - 1; i++) {
+//   let ascd = arr[i];
+//   let ascd2 = arr[i + 1];
+//   if (ascd < ascd2) {
+//     continue;
+//   } else {
+//     flag = false;
+//     break;
+//   }
+// }
+// if (flag) {
+//   console.log("In ascending ");
+// } else {
+//   console.log("not");
+// }
 
 // Question 2. Check if the array is sorted in descending order.
 
 // Ans 2.
 
-// let arr = [90, 40, 30, 10, 5, 3];
-// let des = arr[0];
-// for (let i = 1; i < arr.length; i++) {
-//   if (des > arr[i]) {
-//     console.log("Yes it is in Descending order");
+// let arr = [9, 8, 7, 6, 5, 20, 4, 3, 2, 1];
+// let flag = true;
+// for (let i = 0; i < arr.length - 1; i++) {
+//   let des = arr[i];
+//   let des1 = arr[i + 1];
+
+//   if (des > des1) {
+//     continue;
 //   } else {
-//     console.log("Not ");
+//     flag = false;
+//     break;
 //   }
-//   ++des;
+// }
+
+// if (flag) {
+//   console.log("IN descending Order");
+// } else {
+//   console.log("Not in descending order");
 // }
 
 // Question 3. Concat two Arrays but without using concat function
 
 // Ans 3.
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// let arr2 = [, 10, 20, 30, 40, 50];
-// console.log(arr + "" + arr2);
-// console.log(`${arr}${arr2}`);
+// let arr2 = [10, 20, 30, 40, 50];
+// let arr3 = [];
+// for (let i = 0; i < arr.length; i++) {
+//   arr3.push(arr[i]);
+// }
+// for (let i = 0; i < arr2.length; i++) {
+//   arr3.push(arr2[i]);
+// }
+// console.log(arr3);
 
 // Question 4. Count the total number of odd numbers in the array
 
@@ -70,14 +84,22 @@ if (flag) {
 // Question 6. Create a new Array from existing Array using push function
 
 // let arr = [1, 2, 3, 4, 5, 6, "shaad Papa", 7, 8, 9];
-// arr.push(50);
-// arr.push(500);
-// arr.push(5000);
-// console.log(arr);
+// let arr2 = [];
+// for (let i = 0; i < arr.length; i++) {
+//   arr2.push(arr[i]);
+// }
+// console.log(arr2);
 
 // Question 7. Find the average of the Array
 
-// Ans 7. ???
+// Ans 7.
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum = sum + arr[i];
+// }
+// let avg = sum / arr.length;
+// console.log(avg);
 
 // Question 8. Find the largest word in the Array
 
