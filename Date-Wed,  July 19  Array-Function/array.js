@@ -67,11 +67,34 @@
 //   i++;
 // }
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] % 2 === 1) {
-    console.log("ODD");
-  } else {
-    console.log(arr[i]);
-  }
-}
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [10, 20, 30, 40, 50];
+// let arr3 = [10, 20, 30, 40, 50];
+// arr.push(1);
+// arr.push(1);
+// console.log(arr);
+// arr.pop();
+// arr.pop();
+// console.log(arr);
+// arr.unshift(10);
+// arr.unshift(10);
+// arr.unshift(10);
+// console.log(arr);
+// arr.shift();
+// arr.shift();
+// arr.shift();
+// console.log(arr);
+// arr.toString();
+// console.log(arr);
+
+// console.log(arr.join("$"));
+// console.log(arr.reverse());
+// console.log(arr.at(-2));
+// console.log(arr.at(-1));
+// console.log(arr.concat(arr2, arr3));
+
+// let arr = ["shaad", "rohan", "tousif", "naveen", "don"];
+
+// arr.forEach((value) => {
+//   console.log(value);
+// });
