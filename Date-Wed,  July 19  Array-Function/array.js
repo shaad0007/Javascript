@@ -45,3 +45,33 @@
 //   console.log(value, index);
 // }
 // arr.forEach(names);
+
+// let arr = ["shaad", "shoreb", "Najim", "Zasin saify"];
+// console.log(arr);
+// let arr = [];
+// console.log(arr);
+// let arr = ["shaad", "shoreb", "Najim", "Zasin saify"];
+// console.log(arr.length);
+// let arr = ["shaad", "shoreb", "Najim", "Zasin saify"];
+// console.log(arr[2]);
+// console.log(arr[3]);
+
+// arr[1] = "love";
+// console.log(arr);
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+// let i = 0;
+// while (i < arr.length) {
+//   console.log(arr[i]);
+//   i++;
+// }
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 === 1) {
+    console.log("ODD");
+  } else {
+    console.log(arr[i]);
+  }
+}
