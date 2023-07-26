@@ -57,12 +57,21 @@
 
 // Ans 7.
 // let arr = ["shaad", "baba", "sabir", "arebaz", "tirth parsana"];
-// let ans = arr.reduce(function test(prev, current) {
+// let ans = arr.reduce((prev, current) => {
 //   if (current.length > 5) {
-//     return prev + current;
+//     return prev + 1;
+//   } else {
+//     return prev;
 //   }
 // }, 0);
-// console.log(ans);   ????
+// console.log(ans);
+
+// let arr = ["shaad", "baba", "sabir", "arebaz", "tirth parsana", "shaad ali"];
+
+// let ans = arr.filter((value) => {
+//   return value.length > 5;
+// });
+// console.log(ans.length);
 
 // 8. Convert any odd number to even number using map function
 
@@ -100,9 +109,3 @@
 //   return value % 5 === 0 && value < 10;
 // });
 // console.log(ans)
-
-// let arr = ["shaad", 1, 32, false, 0, true];
-// let ans = arr.filter(function test(value) {
-//   return true;
-// });
-// console.log(ans);
