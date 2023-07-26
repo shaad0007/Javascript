@@ -62,7 +62,7 @@
 //     return prev + current;
 //   }
 // }, 0);
-// console.log(ans);
+// console.log(ans);   ????
 
 // 8. Convert any odd number to even number using map function
 
