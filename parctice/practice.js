@@ -361,3 +361,126 @@ console.log(num === 10);*/
 // } else {
 //   console.log("both are equal");
 // }
+
+// let num1 = 100;
+// let num2 = 100;
+// let num3 = 100;
+// if (num1 > num2 && num1 > num3) {
+//   console.log("num1 is greater ");
+// } else if (num2 > num1 && num2 > num3) {
+//   console.log("num2 is greater");
+// } else if (num3 > num1 && num3 > num2) {
+//   console.log("num3 is greater");
+// } else {
+//   console.log("both are Equal");
+// }
+
+// let num1 = 100;
+// let num2 = 200;
+// let ans = 500;
+// let num3 = ans - (num1 + num2);
+// console.log(num3);
+
+// Ask the below questions:
+
+// What is your English marks in 10th?
+// What is your Science marks in 10th?
+// What is your Math marks in 10th?
+// What is your Hindi marks in 10th?
+// What is your SST marks in 10th? Now calculate percentage by taking all the 5 subjects numbers.
+
+// let eng = +prompt("what is your English marks in 10th? ");
+// let sci = +prompt("what is your Science marks in 10th? ");
+// let math = +prompt("what is your Math marks in 10th? ");
+// let hindi = +prompt("what is your Hindi marks in 10th? ");
+// let sst = +prompt("what is your SST marks in 10th? ");
+// let marksGain = eng + sci + math + hindi + sst;
+// let totalMarks = 500;
+
+// let per = (marksGain / totalMarks) * 100;
+// console.log(per);
+
+// Add 20 in your name and check value in console.
+// Add true to your name and check output
+// Add 30+"learnjavascript" and check type of the final value.
+
+// console.log("shaad" + 20);
+// console.log("shaad" + true);
+// console.log(30 + "learnjavascript");
+
+// let user = prompt("Do you drink coffee or tea?");
+// if (user) {
+//   if (user.toLowerCase() === "coffee") {
+//     alert("tea");
+//   } else if (user.toLowerCase() === "tea") {
+//     alert("coffee");
+//   } else {
+//     alert("ERROR");
+//   }
+// } else {
+//   alert("thanks for coming");
+// }
+// Test below conditions using &&, || and not logical operators. Take any number check if number is even and also check if number is multiple of 4 or not. If both conditions are true then check if number is less than 100 or number is 84 or not.
+
+// let num = 1;
+// if (num % 2 === 0 && num % 4 === 0 && (num < 100 || num === 84) ){
+
+// } else {
+//   console.log("ERROR");
+// }
+
+// Take city temprature. If temp is less than 10 degree then print very cold. If city temp is less than 30 and greater than equal to 10 then print cold. If temp is between 30 to 40 then print Hot. Else print Very hot
+
+// let tmp = 0;
+// if (tmp < 10) {
+//   console.log("Very cold");
+// } else if (tmp < 30 && tmp >= 10) {
+//   console.log("cold");
+// } else if (tmp >= 30 && tmp <= 40) {
+//   console.log("Hot");
+// } else {
+//   console.log("Very hot");
+// }
+
+// Using prompt ask user about his/her age. If user is greater than 18 then show user message "Do you want to open account?" If yes click on Okay button then ask your 4 below questions
+
+// What is your name ?
+// What is your aaadhar number ?
+// What is your address?
+// What is your mobile number? And print all these details in console. If click on cancel then show message "Sorry, please visit again."
+
+// let user = +prompt("What's your Age");
+// if (user > 18) {
+//   let choice = confirm("Do you want to open account?");
+//   if (choice) { // hum direct yha confirm nhi likh skte kya choice ki jgh jese promt liya hai conole mein niche ...
+//     console.log(prompt("What is your name ?"));
+//     console.log(+prompt("What is your aaadhar number ?"));
+//     console.log(prompt("What is your address?"));
+//     console.log(+prompt(" What is your mobile number?"));
+//   } else {
+//     console.log("Sorry, please visit again.");
+//   }
+// } else {
+//   console.log("ERROR");
+// }
+
+// Who is most intelligent in your family? Ask 10th percentage of each family member and check who got the highest marks.
+
+// let shaad = 55;
+// let sehfeen = 65;
+// let shoreb = 75;
+// let Abba = 85;
+
+// if (shaad > sehfeen && shaad > shoreb && shaad > Abba) {
+//   console.log("Shaad got the highest marks");
+// } else if (sehfeen > shaad && sehfeen > shoreb && sehfeen > Abba) {
+//   console.log("sehfeen got the highest marks");
+// } else if (shoreb > shaad && shoreb > sehfeen && shoreb > Abba) {
+//   console.log("shoreb got the highest marks");
+// } else if (Abba > shaad && Abba > sehfeen && Abba > shoreb) {
+//   console.log("Abba");
+// } else {
+//   console.log("All are equal");
+// }
+
+// Create a simple calcultor. Firslty ask your about the operation. Like "What do you want to do?" User can type choice in any way like +,- or plus, minus or add, sub etc. After that ask user about first number and then second number and finally show the desired output.
