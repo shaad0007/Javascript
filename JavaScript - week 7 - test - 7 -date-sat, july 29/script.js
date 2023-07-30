@@ -5,7 +5,6 @@
 // let arr = ["Shaad", "Farman", "Rashid"];
 // let ans = arr.at(1);
 // console.log(ans);
-// console.log(arr[1]);
 
 // Question 2
 // Create an array with five elements and print out the length of the array.
@@ -115,7 +114,7 @@
 
 // const arr = [10, 2, 9];
 // arr.toString();
-// console.log(arr);   ???????????????????????????????????????????????????
+// console.log(arr); // ???????????????????????????????????????????????????
 
 // console.log(ans);
 
@@ -133,7 +132,7 @@
 // Ans 14.
 // let arr = ["shaad", "shoreb", "sana", "shreen", "saba"];
 // let ans = arr.indexOf("shreen");
-// console.log(ans); ?????????????????????????
+// console.log(ans);
 
 // Question 15
 // Create an array with six elements and slice the array to create a new array with the first three elements.
@@ -206,6 +205,8 @@
 // console.log(arr.concat(arr2));
 // console.log(arr2.concat(arr));
 
+//EXERCISE - 2
+
 // Question 1.
 // Create an array called fruits that contains the following elements: "apple", "banana", "orange". Now check if "orange" is in the fruits array.
 
@@ -236,8 +237,173 @@
 // Given an array of strings, write a function that returns the longest string in the array.
 
 // Ans 4.
-let arr = ["shaad", "rohan", "nisha", "tousif", "danish"];
-let ans = arr.forEach((prev, curr) => {
-  return prev.length > curr.length;
-}, 0);
-console.log(ans);
+// let arr = ["shaad", "rohan", "nisha", "tousifftfftyf", "danishh"];
+// let str = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].length > str.length) {
+//     str = arr[i];
+//   }
+// }
+// console.log(str);
+
+// Question 5.
+
+// Write a function that takes an array of numbers and returns the largest number in the array.
+
+// Ans 5.
+// let arr = [1, 2, 3, 90, 4, 5, 6, 7, 8];
+// let num = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > num) {
+//     num = arr[i];
+//   }
+// }
+// console.log(num);
+
+// Question 6.
+// Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
+
+// Ans 6.
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let ans = arr.filter((value) => {
+//   return value % 2 === 0;
+// });
+// console.log(ans);
+// console.log(arr);
+
+// Question 7.
+// Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
+
+// Ans 7.
+// let arr = ["shaad", "shoreb", "sharik", "zaid", "zaheen", "anu", "aman"];
+
+// let ans = arr.filter((value) => {
+//   return value.length > 5;
+// });
+
+// console.log(ans);
+
+// Question 8.
+
+// Write a function that takes two arrays of numbers and returns a new array that contains the intersection of the two arrays (i.e. only the numbers that appear in both arrays).
+
+// // Ans 8.
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [10, 2, 3, 4, 50];
+// ???????????????????????????????????????????????????????????????????
+
+// Question 9.
+// Write a function that takes an array of numbers and returns a new array where each element is the square of the original element
+
+// Ans 9.
+// let arr = [1, 2, 3, 4, 5];
+// let ans = arr.map((value) => {
+//   return value * value;
+// });
+
+// console.log(ans);
+
+// Question 10.
+// Write a function that takes an array of numbers and returns the average of all the numbers in the array.
+
+// let arr = [10, 20, 30, 40, 50];
+// let ans = arr.reduce((pre, curr) => {
+//   return pre + curr;
+// });
+
+// console.log(ans / arr.length); ??????????????????????????????console ke and print krliya caculate krliya sahi hai kya
+
+// Question 11.
+// Write a function that takes an array of numbers and returns a new array that only contains numbers that are greater than 5. Use filter function
+
+// Ans 11.
+// let arr = [10, 2, 30, 4, 5, 6];
+// let ans = arr.filter((value) => {
+//   return value > 5;
+// });
+// console.log(ans);
+
+// Question 12.
+// Write a function that takes an array of numbers and returns a new array where each element is the original element plus 1. use map function
+
+// Ans 12.
+// let arr = [1, 2, 3, 4, 5];
+// let ans = arr.map((value) => {
+//   return value + 1;
+// });
+// console.log(ans);
+
+// Question 13.
+// Write a function that takes an array of numbers and returns a new array that contains only the unique numbers using reduce.
+
+// Ans 13.
+// ???????????????????????????????????????
+
+// Question 14.
+
+// Write a function that takes an array of strings and returns the total number of characters in all the strings using reduce.
+
+// Ans 14.
+// let arr = ["shaad", "sneha", "suhana", "kriti", "purbi", "sakshi"];
+// let ans = arr.reduce((prev, curr) => {
+//   return prev + curr.length;
+// }, 0);
+// console.log(ans);
+
+// Question 15.
+// Write a function that takes an array of strings and sorts them by their length in ascending order.
+
+// Ans 15.
+// let str = ["apple", "banana", "cherry", "date"];
+// let ans = str.sort((a, b) => {
+//   return a.length - b.length;
+// });
+// console.log(ans);
+
+// Question 16.
+// Write a function that takes an array of numbers and returns the second highest number.
+
+// Ans 16.
+// let arr = [5, 2, 3, 4, 1];
+// let ans = arr.sort((a, b) => {
+//   return b - a;
+// });
+// console.log(ans);?????????????????????????????????????????
+
+// Question 17.
+// Write a function that takes an array of numbers and returns a new array with all the unique numbers.
+
+// Ans 17.
+// ???????????????????????????
+
+// Question 18.
+// Write a function that takes an array of strings and returns a new array with only the strings that contain the letter "a".
+
+// Ans 18.
+// let arr = ["shaad", "shoreb", "sharik", "zaid", "zaheen", "anu", "aman"];
+// let ans = arr.filter((value) => {
+//   return value.includes("a");
+// });
+
+// console.log(ans);
+
+// Question 19.
+// Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+
+// Ans 19.
+// let arr = [10, 45, 5, 9, 7, 3, 2];
+// let ans = arr.sort((a, b) => {
+//   return a - b;
+// });
+// console.log(ans);
+
+// Question 20.
+// Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
+
+// Ans 20.
+// let arr = ["shaad", "shoreb"];
+// let ans = arr.map((value) => {
+//   return value;
+// });
+
+// console.log(ans); ?????????????????????????????????????

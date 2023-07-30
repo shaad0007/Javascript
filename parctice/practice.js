@@ -484,3 +484,24 @@ console.log(num === 10);*/
 // }
 
 // Create a simple calcultor. Firslty ask your about the operation. Like "What do you want to do?" User can type choice in any way like +,- or plus, minus or add, sub etc. After that ask user about first number and then second number and finally show the desired output.
+
+// let arr = [784, 3267, 12, 45, 213, 10];
+// let min = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     min = arr[i];
+//   }
+// }
+// console.log(min);
+
+// let arr = [1, 2, 3, 4, 5];
+// let ans = arr.reduce((a, b) => {
+//   return a + b;
+// });
+// console.log(ans);
+
+// let arr = ["shaad", "shoreb", "sadaf"];
+// let ans = arr.reduce((prev, curr) => {
+//   return prev + curr.length;
+// }, 0);
+// console.log(ans);
