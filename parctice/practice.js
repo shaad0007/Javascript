@@ -522,22 +522,20 @@ console.log(num === 10);*/
 
 // console.log(obj);
 
-let obj = {
-  name: "anwar mohammad",
-  fatherName: "ramjan mohammad",
-  dob: "10-dec-1999",
-  mobileNumber: 9079208262,
-  aadharNumber: 213374892091,
-  address: {
-    pincode: 302012,
-    city: "jaipur",
-  },
-  AccountDetail: {
-    accountHolderName: "anwar mohammad",
-    accountNumber: 918010000290600,
-    bankName: "Axis Bank",
-    ifsc: "UTIB0003649",
-  },
-};
-
-for (value of obj) console.log(obj);
+// let obj = {
+//   name: "anwar mohammad",
+//   fatherName: "ramjan mohammad",
+//   dob: "10-dec-1999",
+//   mobileNumber: 9079208262,
+//   aadharNumber: 213374892091,
+//   address: {
+//     pincode: 302012,
+//     city: "jaipur",
+//   },
+//   AccountDetail: {
+//     accountHolderName: "anwar mohammad",
+//     accountNumber: 918010000290600,
+//     bankName: "Axis Bank",
+//     ifsc: "UTIB0003649",
+//   },
+// };
