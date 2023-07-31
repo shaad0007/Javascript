@@ -505,3 +505,39 @@ console.log(num === 10);*/
 //   return prev + curr.length;
 // }, 0);
 // console.log(ans);
+
+// let obj = {
+//   name: "shaad",
+//   age: 30,
+//   mobileNo: 9977555747,
+//   address: "Gandhi Nagar",
+// };
+// accountDetail{
+//   name: "shaad",
+//   address: "Gandhi Nagar",
+//   ifscCode: 57856877356,
+//   aadharNo: 743856756347,
+//   mobileNo: 9977555747,
+// };
+
+// console.log(obj);
+
+let obj = {
+  name: "anwar mohammad",
+  fatherName: "ramjan mohammad",
+  dob: "10-dec-1999",
+  mobileNumber: 9079208262,
+  aadharNumber: 213374892091,
+  address: {
+    pincode: 302012,
+    city: "jaipur",
+  },
+  AccountDetail: {
+    accountHolderName: "anwar mohammad",
+    accountNumber: 918010000290600,
+    bankName: "Axis Bank",
+    ifsc: "UTIB0003649",
+  },
+};
+
+for (value of obj) console.log(obj);
