@@ -539,3 +539,334 @@ console.log(num === 10);*/
 //     ifsc: "UTIB0003649",
 //   },
 // };
+
+// let user = prompt("what do you want to do");
+// let num1 = +prompt("give me your firt num");
+// let num2 = +prompt("give me your secound num");
+// if ("+") {
+//   console.log(num1 + num2);
+// } else if ("-") {
+//   console.log(num1 - num2);
+// } else if ("*") {
+//   console.log(num1 * num2);
+// } else if ("/") {
+//   console.log(num1 / num2);
+// } else {
+//   console.log("Invalid num");
+// }
+
+// Question 1
+// Create two variables and store some numbers in them. Now do below operations:
+
+// Addition
+// Multiplication
+// Substraction
+// Divide
+
+// Ans 1.
+// let num = 200;
+// let num2 = 20;
+// console.log(num + num2);
+// console.log(num * num2);
+// console.log(num - num2);
+// console.log(num / num2);
+
+// Question 2
+// Take one number. If number is odd then print odd else print even.
+
+// Ans 2.
+// let num = 10;
+// if (num % 2 === 1) {
+//   console.log("ODD");
+// } else {
+//   console.log("Even");
+// }
+
+// Question 3
+// Using prompt ask user to enter name and then show the name in alert.
+
+// Ans 3.
+// let name = prompt("what is your name");
+// alert(name);
+
+// Question 4
+// Take two numbers if first number is less than second number than print your name, age and mobile number else print your father name, age and mobile number.
+
+// Ans 4.
+// let num1 = 10;
+// let num2 = 100;
+// if (num1 < num2) {
+//   console.log("shaad");
+//   console.log(22);
+//   console.log(473874759835);
+// } else {
+//   console.log("Khalid");
+//   console.log(54);
+//   console.log(73459347597);
+// }
+
+// Question 5
+// Take two numbers. Now using && and || operator check if both numbers are divisible of 5 && 10 or not. Also check both numbers are even or not.
+
+// Ans 5.
+// let num = 20;
+// let num1 = 30;
+// if ((num % 5 === 0 && num % 10 === 0) || (num % 2 === 0 && num1 % 2 === 0)) {
+//   console.log("yes");
+// } else {
+//   console.log("No");
+// }
+
+// Question 6.
+// print Hello world using console.log, window.alert and document.write
+
+// let a = "Hello World";
+// console.log(a);
+// alert(a);
+// document.write(a);
+
+// Question 7.
+// Question 7. Take all falsy values and check in if condition.
+
+// Ans 7.
+// let a = false;
+// let b = undefined;
+// let c = "";
+// let d = null;
+// let e = NaN;
+// let f = 0;
+// if (a) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+// if (b) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+// if (c) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+// if (d) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+// if (e) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+// if (f) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+
+// Question 8.
+//  Using confirm box ask questions "Do you want to play?". if user click on Ok then print yes and if user click on Cancel then print No
+
+// Ans 8.
+
+// let choice = confirm("do you want to play");
+// if (choice) {
+//   console.log("yes");
+// } else {
+//   console.log("No");
+// }
+
+// Question 9. If total members in your family are more than 5 then print Big Family, if members are between 3 to 5 then print small family else print very small family
+
+// let totalFamilyMember = 0;
+// if (totalFamilyMember > 5) {
+//   console.log("Big family");
+// } else if (totalFamilyMember >= 3 && totalFamilyMember <= 5) {
+//   console.log("small family");
+// } else {
+//   console.log("very small family");
+// }
+
+// Question 10. Using ++, -- print 1 to 10 and then 10 to 5
+
+// Ans 10.
+// let a = 0;
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(++a);
+// console.log(--a);
+// console.log(--a);
+// console.log(--a);
+// console.log(--a);
+// console.log(--a);
+
+// Question 1
+// Print 1 to 100
+
+// Ans 1.
+// for (let i = 1; i <= 100; i++) {
+//   console.log(i);
+// }
+
+// Print all Odd numbers from 1 to 100
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print all Even numbers from 1 to 100
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print all numbers which are divisible of 5 in 1 to 100
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print all numbers which are divisible of 5 and 15 in 1 to 100
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 5 === 0 && i % 15 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print 2's table
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i * 2);
+// }
+
+// Ask user a question "How many times do you want to print Hello World?" and then print Hello World that number of times
+
+// let user = +prompt("how many time do you want to print Hello world");
+// for (let i = 0; i < user; i++) {
+//   console.log("Hello World");
+// }
+
+// Calculate sum of all numbers from 1 to 100
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+
+// Calculate sum of all odd numbers from 1 to 100
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 === 1) {
+//     sum = sum + i;
+//   }
+// }
+// console.log(sum);
+
+// Calculate sum of all even numbers from 1 to 100
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     sum = sum + i;
+//   }
+// }
+// console.log(sum);
+
+// print 1,2,4,8,16,32,64.......upto 2048
+
+// for (let i = 1; i <= 2048; i = i * 2) {
+//   console.log(i);
+// }
+
+// 1,2,3,4,5,6,7,8,9,10
+// 11,12,13,14,15,16,17,18,19,20
+// .
+// .
+// ......................99,100
+
+// for (let i = 1; i <= 100; i++) {
+//   document.write(i);
+
+//   if (i % 10 === 0) {
+//     document.write("<br>");
+//   }
+// }
+
+// pritn 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself.
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(i + "fizzbuzz");
+//   }
+// }
+
+// print 10 table like this
+
+// let x = 10;
+
+// for (let i = 1; i <= 10; i = i + 1) {
+//   console.log(x + "*" + i + "=" + x * i);
+// }
+
+// for (let i = 1; i <= 50; i++) {
+//   if (i <= 10) {
+//     console.log("a" + i);
+//   } else if (i > 10 && i <= 20) {
+//     console.log("b" + i);
+//   } else if (i > 20 && i <= 30) {
+//     console.log("c" + i);
+//   } else if (i > 30 && i <= 40) {
+//     console.log("d" + i);
+//   } else if (i > 40 && i <= 50) {
+//     console.log("e" + i);
+//   }
+// }
+
+// for (let i = 50; i >= 1; i--) {
+//   if (i > 40) {
+//     console.log("a" + i);
+//   } else if (i > 30 && i <= 40) {
+//     console.log("b" + i);
+//   } else if (i > 20 && i <= 30) {
+//     console.log("c" + i);
+//   } else if (i > 10 && i <= 20) {
+//     console.log("d" + i);
+//   } else if (i > 0 && i <= 10) {
+//     console.log("e" + i);
+//   }
+// }
+
+// Print below series
+// 5 25 125.. till number is less than equal to 10000
+
+// for (let i = 5; i <= 10000; i = i * 5) {
+//   console.log(i);
+// }
+
+// Print below series 3,6,9,12... till number is less than equal to 500
+
+// for (let i = 1; i <= 500; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+for (let i = 3; i <= 500; i = i + 3) {
+  console.log(i);
+}

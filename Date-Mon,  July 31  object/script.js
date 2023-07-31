@@ -83,9 +83,9 @@ let obj = {
 // console.log(obj["age" + age]);
 
 // let arr = [1, 2, 3, 4, 5, 6];
-for (let value of Object.values(obj)) {
-  console.log(value);
-}
+// for (let value of Object.values(obj)) {
+//   console.log(value);
+// }
 // for (let value of Object.keys(obj)) {
 //   console.log(value);
 // }
