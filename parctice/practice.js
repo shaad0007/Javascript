@@ -867,6 +867,136 @@ console.log(num === 10);*/
 //     console.log(i);
 //   }
 // }
-for (let i = 3; i <= 500; i = i + 3) {
-  console.log(i);
-}
+
+// let arr = ["shaad", "sehfeen", "shoreb"];
+// let arr1 = [1, 2, [3, [4, 3, 5], 4], 5];
+// console.log(arr);
+// let ans = arr.concat(arr1);
+// console.log(ans);
+// let ans = arr1.splice(0, 1, 100, 100);
+// let ar = arr1.flat();
+// console.log(arr1.flat());
+// console.log(ar);
+// console.log(ans);
+// console.log(arr1);
+// let ans = arr1.slice(1);
+// console.log(ans);
+// let ans = arr.slice(1);
+// console.log(ans);
+// let ans = arr.reverse();
+// console.log(ans);
+// let ans = arr.forEach((value) => {
+//   console.log(value);
+// });
+// let ans = arr1.flat((value) => {
+//   return value;
+// });
+// console.log(ans);
+// console.log(arr1.flat());
+// console.log(arr1);
+
+// let obj = {
+//   name: "shaad",
+//   city: "jaipur",
+//   phone: 63853465873,
+//   100: 5000,
+//   fee: () => {
+//     console.log("FEE DEPOSIT");
+//   },
+//   arr: [1, 2, 3, 4, 5],
+// };
+// console.log(obj["name"]);
+// console.log(obj.name);
+// console.log(obj["100"]);
+// console.log(obj);
+// console.log(obj["arr"]);
+// obj.fee();
+
+// let age = +prompt("what is your age");
+// let obj = {
+//   ["age" + age]: 5000,
+// };
+// console.log(obj);
+// console.log(obj["age" + age]);
+
+// let obj = {
+//   name: "shaad",
+//   phone: 123456789,
+//   car: "tesla",
+//   color: "blue",
+// };
+
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let value of Object.keys(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.values(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.entries(obj)) {
+//   console.log(value[0], value[1]);
+// }
+
+// const set = new Set();
+// set.add(1);
+// set.add(2);
+// set.add(3);
+// set.add(4);
+// set.add(1);
+// set.add(2);
+// set.add(10);
+// console.log(set);
+// let arr = [...set];
+// console.log(arr);
+
+// console.log(set.size);
+// // set.clear();
+// console.log(set.has(2));
+// set.delete(2);
+// console.log(set);
+// console.log(set.has(2));
+// console.log(set.entries());
+// for (let value of set) {
+//   console.log(value);
+// }
+// let set = new Set();
+// set.add(1);
+// set.add(10);
+// set.add(100);
+// set.add(1000);
+// console.log(set);
+// set.delete(1000);
+// console.log(set);
+
+// let arr = [...set];
+// console.log(arr);
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let set = new Set(arr);
+// console.log(set);
+
+// let map = new Map();
+// map.set(1, 100);
+// map.set("name", "shaad");
+// map.set("school", "kgn");
+// map.set("friend", "sabir");
+// map.set("marks", [1, 2, 3, 4, 5]);
+// console.log(map.get("marks")[2]);
+// console.log(map.size);
+// console.log(map.has("name"));
+// console.log(map.has(100));
+// map.clear();
+// console.log(map);
+
+// console.log(...map);
+
+// 1 2 3 4 5
+//  2 3 4 5
+//   3 4 5
+//    4 5
+//     5
+
+

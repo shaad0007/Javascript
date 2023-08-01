@@ -1,21 +1,21 @@
-let obj = {
-  bankName: "SBI",
-  mobileNo: 95327593475,
-  house: {
-    color: "white",
-    nest: "dense",
-  },
-  address: "jaipur",
-  accountHolderName: "shaad",
-  deposit: function () {
-    console.log("Deposit function");
-  },
-  withdraw: function () {
-    console.log("Withdraw function");
-  },
+// let obj = {
+//   bankName: "SBI",
+//   mobileNo: 95327593475,
+//   house: {
+//     color: "white",
+//     nest: "dense",
+//   },
+//   address: "jaipur",
+//   accountHolderName: "shaad",
+//   deposit: function () {
+//     console.log("Deposit function");
+//   },
+//   withdraw: function () {
+//     console.log("Withdraw function");
+//   },
 
-  arr: [1, 2, 3, 4, 5, 6, 7, 8, , 9],
-};
+//   arr: [1, 2, 3, 4, 5, 6, 7, 8, , 9],
+// };
 // console.log(Object.keys(obj.house));
 // console.log(Object.values(obj));
 // console.log(Object.entries(obj.house));
@@ -92,3 +92,54 @@ let obj = {
 // for (let value of Object.entries(obj)) {
 //   console.log(value[0], value[1]);
 // }
+
+// Question 3: How do you loop through the properties of an object in JavaScript?
+
+// let obj = {
+//   bankName: "SBI",
+//   mobileNo: 95327593475,
+//   house: {
+//     color: "white",
+//     nest: "dense",
+//   },
+//   address: "jaipur",
+//   accountHolderName: "shaad",
+//   deposit: function () {
+//     console.log("Deposit function");
+//   },
+//   withdraw: function () {
+//     console.log("Withdraw function");
+//   },
+
+//   arr: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+// };
+
+// for (let value of Object.keys(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.values(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.entries(obj)) {
+//   console.log(value[0], value[1]);
+// }
+
+// for (let value of Object.entries(obj)) {
+//   console.log(value[0], value[1]);
+// }
+
+// let obj = {
+//   bankName: "SBI",
+//   house: "guadi",
+//   color: "white",
+//   nest: "dense",
+// };
+
+// let val = Object.keys(obj);
+// val.sort((a, b) => {
+//   return b - a;
+// });
+
+// console.log(val);
+
+
