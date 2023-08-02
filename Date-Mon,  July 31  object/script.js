@@ -142,4 +142,109 @@
 
 // console.log(val);
 
+// let obj = {
+//   name: "shaad",
+//   car: "ciat",
+//   color: "coper",
+//   arr: [1, 2, 3, 4, 5],
+//   feeDeposit: () => {
+//     console.log("deposit fee");
 
+//   },
+// };
+
+// console.log(obj.name);
+
+// for (let value of Object.entries(obj)) {
+//   console.log(value);
+// }
+// console.log(obj.feeDeposit());
+
+// let set = new Set();
+// set.add(1);
+// set.add(1);
+// set.add(2);
+// set.add(2);
+// set.clear();
+// console.log(set);
+// set.delete(2);
+// set.delete(1);
+// console.log(set.has(1));
+// console.log(set.forEach());
+// console.log(set);
+
+// let obj = {
+//   name: "shaad",
+//   id: 101,
+//   color: "black",
+//   rollNo: 302012,
+// };
+
+// for (let value of Object.keys(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.values(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.entries(obj)) {
+//   console.log(value);
+// }
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+// let obj = {
+//   name: "shaad",
+//   rollNumber: 748724724,
+//   id: 7,
+//   phone: 734723432,
+//   school: "smart kids school",
+//   friend: "tousif",
+//   teacher: "sajid sir",
+// };
+
+// for (let value of Object.entries(obj)) {
+//   console.log(value[0], value[1]);
+// }
+// for (let value of Object.keys(obj)) {
+//   console.log(value);
+// }
+// for (let value of Object.values(obj)) {
+//   console.log(value);
+// }
+
+// let obj = {
+//   yourName: () => {
+//     return "shaad";
+//   },
+// };
+
+// console.log(obj.yourName());
+
+// let obj = {
+//   name: "shaad",
+//   rollNumber: 748724724,
+//   id: 7,
+//   phone: 734723432,
+//   school: "smart kids school",
+//   friend: "tousif",
+//   teacher: "sajid sir",
+// };
+
+// for (let value of Object.entries(obj)) {
+//   console.log(value[0], value[1]);
+// }
+
+// Question 7.?????????????????????????????????????????????????????????
+// let obj = {
+//   name: "shaad",
+//   school: "smart",
+//   friend: "tousif",
+//   teacher: "sajid",
+// };
+// for (let value of Object.keys(obj)) {
+//   value.sort((a,b)=>{
+//     console.log(a-b)
+//   });
+//   console.log(obj.sort(value));
+// }
