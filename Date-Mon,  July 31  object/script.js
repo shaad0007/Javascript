@@ -243,8 +243,63 @@
 //   teacher: "sajid",
 // };
 // for (let value of Object.keys(obj)) {
-//   value.sort((a,b)=>{
-//     console.log(a-b)
+//   value.sort((a, b) => {
+//     console.log(a - b);
 //   });
-//   console.log(obj.sort(value));
+//   console.log(obj.sort());
 // }
+
+// let arr = [1, 2, 3, 4, 5, 5, 4, 3, 2];
+// let set = new Set(arr);
+// console.log(set);
+
+// let arr = [1, 2, 3, 4, 5, 5, 4, 3, 2];
+// let arr1 = [];
+// for (let value of arr) {
+//   if (arr1.includes(value)) {
+//     continue;
+//   } else {
+//     arr1.push(value);
+//   }
+// }
+// console.log(arr1);
+
+// let map = new Map();
+// map.set("name", "shaad"),
+//   map.set("  rollNumber", 748724724),
+//   map.set("id", 7),
+//   map.set("phone", 734723432),
+//   map.set("school", "smart kids school"),
+//   map.set("friend", "tousif"),
+//   map.set("teacher", "sajid sir");
+
+// console.log(map);
+
+// let obj = {};
+// map.forEach((val, key) => {
+//   obj[key] = val;
+// });
+// console.log(obj);
+
+// let arr = ["shaad", "sehfeen", "shoreb"];
+// let ans = arr.flatMap((value) => {
+//   return value.split("");
+// });
+// console.log(ans);
+
+// let arr = [1, 2, 3, 40, 50, 6, 7, 8];
+// let ans = arr.reduce((max, curr) => {
+//   if (max < curr) {
+//     return curr;
+//   } else {
+//     return max;
+//   }
+// });
+// console.log(ans);
+
+let arr = [1, 2, 2, 2, 3, 4, 5, 5, 6, 6];
+let map = new Map();
+for (let value of arr) {
+  map.set(value, 1);
+}
+console.log(map);
