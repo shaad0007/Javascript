@@ -297,9 +297,27 @@
 // });
 // console.log(ans);
 
-let arr = [1, 2, 2, 2, 3, 4, 5, 5, 6, 6];
-let map = new Map();
-for (let value of arr) {
-  map.set(value, 1);
-}
-console.log(map);
+// let arr = [1, 2, 2, 2, 3, 4, 5, 5, 6, 6];
+// let map = new Map();
+// for (let value of arr) {
+//   map.set(value, 1);
+//   if()
+// }
+// console.log(map);
+
+// for (let i = 1; i <= 5; i++) {
+//   let str = "";
+//   for (let j = i; j <= 5; j++) {
+//     str = str + j;
+//   }
+//   console.log(str);
+// }
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = i; j <= 5; j++) {
+//     document.write(j);
+//   }
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = i; j <= 5; j++) {
+//     document.write(j);
+//   }
+// document.write("<br>");
