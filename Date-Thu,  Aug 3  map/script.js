@@ -256,3 +256,20 @@
 //   }
 //   document.write("<br>");
 // }
+
+let arr = [1, 2, 2, 2, 1, 3, 3, 3, 4, 5, 5];
+let map = new Map();
+for (let val of arr) {
+  if (map.get(val) > -1) {
+    let value = map.get(val);
+    value = val + 1;
+    map.set(val, [value]);
+  } else {
+    map.set(val, [value]);
+  }
+  //   map.set(value, 1);
+}
+// for (let value of arr) {
+//   map.set(value, 1);
+// }
+console.log(map);
