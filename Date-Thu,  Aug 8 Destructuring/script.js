@@ -85,10 +85,121 @@
 // const [one, two, three, four] = arr1;
 // console.log(one, two, three, four, (five = 200));
 
-const person = {
-  name: "shaad",
-  age: 60,
-  address: {
-    pincode: 302012,
-  },
-};
+// const person = {
+//   name: "shaad",
+//   age: 60,
+//   address: {
+//     pincode: 302012,
+//   },
+// };
+
+// let arr = [
+//   {
+//     name: "rohan",
+//     age: 3,
+//     city: "udaipur",
+//   },
+//   {
+//     name: "naveen",
+//     age: 70,
+//     city: "jaipur",
+//   },
+//   {
+//     name: "sourabh",
+//     age: 30,
+//     city: "indore",
+//   },
+// ];
+// let ans = arr.find((val) => {
+//   return val.age === 70;
+// });
+// console.log(ans);
+
+// let map = new Map();
+// map.set({ name: "shaad" }, 100);
+// map.set(1);
+// map.set(2);
+// map.set(3);
+// map.set(4);
+// console.log(map.get({ name: "shaad" }));
+
+// const arr = [10, 20, 30, 40, 50];
+// const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr2 = [100, 20, 3000, 40, 5];
+// const arr3 = [1, 2, 3, 4, 5];
+// const arr4 = [47, 50];
+
+// const [one, two, , , fifty] = arr;
+// const [one] = arr1;
+// const [, , , , five] = arr2;
+// const [, , three] = arr3;
+// const [, two] = arr4;
+// console.log(one, two, three, five);
+// // const one = arr[0];
+// const two = arr[1];
+// const three = arr[2];
+// const four = arr[3];
+// console.log(one, two, three, four);
+// const [one, two, , , five] = arr;
+// console.log(one, two, five);
+
+// const arr1 = [1, 2, 3, 4, 5, 6, [50, 60], 7, 8, 9];
+// const arr2 = JSON.parse(JSON.stringify(arr1));
+// arr1.push(100);
+// arr2.push(900);
+// arr2[6].push(500);
+// console.log(arr2);
+// console.log(arr1);
+
+// const arr = [10];
+// const [one = 100, two = 200, three = 300] = arr;
+// console.log(one, two, three);
+
+// const arr1 = [1, 2, 3, 4, 5];
+// const arr3 = [500];
+// const arr2 = [10, 20];
+// const arr4 = [...arr2, ...arr3, ...arr1];
+// console.log(arr4);
+
+// let c = 1000;
+// let v = 30000;
+// [c, v] = [v, c];
+// console.log(c, v);
+
+// const arr1 = [1, 2, 3, 4, 5, [50, [1000, 2000, 3000], 60], 6, 7, 8, 9];
+// const [, , , , , [fifty, [, , three]], , sev, ,] = arr1;
+// console.log(fifty, three, sev);
+
+// const obj = {
+//   name: "shaad",
+//   phone: 4124729749,
+// age: 80,
+//   address: {
+//     city: "indore",
+//     pincode: 4832627684,
+//     singer: "randeep",
+//   },
+// };
+
+// const {
+//   age: myAge = 12,
+//   phone: myPhone,
+//   address: { pincode },
+// } = obj;
+// console.log(myAge, myPhone, pincode);
+
+// const obj = {
+//   name: "shaad",
+//   phone: 4124729749,
+//   age: 80,
+//   address: {
+//     city: "indore",
+//     pincode: 4832627684,
+//     singer: "randeep",
+//   },
+// };
+// function printDetail({ name, age }) {
+//   console.log(name, age);
+// }
+
+// printDetail(obj);
