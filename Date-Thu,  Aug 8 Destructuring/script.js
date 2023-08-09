@@ -73,3 +73,22 @@
 //   address: { pincode },
 // } = obj;
 // console.log(name, mobile, pincode); //  ye const mein hi chl rhe hai sahi se ???????????????????????????????
+
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [10, 20, 30, 40];
+// const arr3 = [100, 200, 300, 400];
+// const arr = [...arr3, ...arr2, ...arr1];
+
+// console.log(arr);
+
+// const arr1 = [1, 2, 3, 4, 5];
+// const [one, two, three, four] = arr1;
+// console.log(one, two, three, four, (five = 200));
+
+const person = {
+  name: "shaad",
+  age: 60,
+  address: {
+    pincode: 302012,
+  },
+};
