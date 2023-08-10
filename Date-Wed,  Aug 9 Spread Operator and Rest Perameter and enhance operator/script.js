@@ -236,18 +236,111 @@
 
 // In Function
 
-let obj = {
-  name: "shaad",
-  age: 22,
-  religion: "Muslim",
-  address: {
-    city: "indore",
-    pincode: 788745,
-  },
-};
+// let obj = {
+//   name: "shaad",
+//   age: 22,
+//   religion: "Muslim",
+//   address: {
+//     city: "indore",
+//     pincode: 788745,
+//   },
+// };
 
-function print({ name, age, religion }) {
-  console.log(name, age, religion);
-}
+// function print({ name, age, religion }) {
+//   console.log(name, age, religion);
+// }
 
-print(obj);
+// print(obj);
+
+// ****************************************************
+
+// The Spread Operator
+
+// Assigning values
+
+// Copy Array
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [...arr];
+// console.log(arr2);
+
+// Join 2 Arrays
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr1 = [10, 20, 30, 40];
+// let ans = [...arr, ...arr1];
+// console.log(ans);
+
+// String tarray using spread
+
+// let str = "wecode academy";
+// console.log(...str);
+
+// Passing arguments in function
+// function sum(...arr) {
+//   let sum = 0;
+//   for (let i = 1; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   console.log(sum);
+// }
+// sum(1, 2, 3, 4, 5, 6);
+
+// Shallow copy
+// let arr = [1, 2, [50, 60], 3, 4, 5];
+// let arr2 = [...arr];
+// arr.push(100);
+// arr2.push(900);
+// arr[2].push(1000);
+// console.log(arr, arr2);
+
+// Assign values
+// Rest element last element
+// Assign values in object
+// Variable arguments in function
+
+// let arr = [1, 2, 3, 4, 5];
+// let [one, two, ...others] = arr;
+// console.log(one, two, others);
+
+// let obj = {
+//   name: "shaad",
+//   age: 20,
+//   email: "shaadalihashmi@gamil.com",
+// };
+// let { name, ...others } = obj;
+// console.log(name, others);
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// function sum(a, b, c) {
+//   console.log(a + b + c);
+// }
+// sum(...arr);
+
+// let obj = {
+//   name: "shaad",
+//   sum(a, b) {
+//     console.log(a + b);
+//   },
+// };
+
+// obj.sum(1, 2);
+
+// let age = 25;
+// let name = "Wecode";
+// let obj = {
+//   name: name,
+//   age: age,
+// };
+
+// console.log(name, age);
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [100, 200];
+// let arr3 = [90, 50];
+// let ans = [...arr3, ...arr2, ...arr1];
+// console.log(ans);
+
+let arr = [, , 3, 4];
+let [one = 200, two = 50, , , five = 100] = arr;
+console.log(one, two, five);
