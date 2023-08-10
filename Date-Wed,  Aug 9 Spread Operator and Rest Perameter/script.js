@@ -101,19 +101,153 @@
 // let [one, , , [six, [, , thirty]], five] = arr;
 // console.log(one, six, thirty, five);
 
+// let obj = {
+//   //   name: "shaad",
+//   age: 40,
+//   inspiration: "israel adesanya",
+//   address: {
+//     city: "indore",
+//     pincode: 278392,
+//   },
+// };
+
+// let {
+//   name: myName = "israel",
+//   age = 50,
+//   address: { pincode },
+// } = obj;
+// console.log(myName, age, pincode);
+
+// let obj = {
+//   name: (myName = "shaad"),
+//   age: 40,
+//   number: 8236481287,
+//   address: {
+//     city: "indore",
+//     pincode: 642667,
+//   },
+// };
+
+// let {
+//   name = "danish",
+//   age = 78,
+//   address: { city },
+// } = obj;
+// console.log(name, age, city);
+
+// function printDetail({ age, number }) {
+//   console.log(age, number);
+// }
+
+// printDetail(obj);
+
+// let obj = {
+//   name: "dada",
+//   age: 22,
+//   phoneNumber: 7975739753,
+//   address: {
+//     city: "indore",
+//     state: "MP",
+//     pincode: "302012",
+//   },
+// };
+
+// function printObj({ name, age, address: { city } }) {
+//   console.log(name, age, city);
+// }
+// printObj(obj);
+
+// What is destructuring
+
+// const arr = [1, 2, 3, 4];
+// const [one, two, ...others] = arr;
+// console.log(one, two, others);
+
+// Reverse values using destructuring
+
+// let a = 10;
+// let b = 200;
+// [a, b] = [b, a];
+// console.log(a, b);
+
+// Return two values from function
+
+// function print() {
+//   return [1, 2, 3, 4, 5, 6, 7, 88];
+// }
+
+// console.log(print());
+
+// Destructuring of nested array
+
+// const arr = [1, 2, [20, [400, 500], 30], 3, 4, 5];
+// const [one, , [tweenty, [, fiveHundred]], three, ,] = arr;
+// console.log(one, tweenty, fiveHundred, three);
+
+// Setting default values
+// const arr = [, 2, [, [400], 30], , 4, 5];
+// const [one = 101, , [tweenty = 2020, [, fiveHundred = 5050]], three = 333, ,] =
+//   arr;
+// console.log(one, tweenty, fiveHundred, three);
+
+// Destructuring Objects
+
+// let obj = {
+//   name: "shaad",
+//   age: 22,
+//   religion: "Muslim",
+//   address: {
+//     city: "indore",
+//     pincode: 788745,
+//   },
+// };
+// let {
+//   name: myName = "sexy",
+//   age,
+//   address: { city },
+// } = obj;
+// console.log(myName, age, city);
+
+// Extract value
+// let arr = [1, 2, 3, 4, 5];
+// let [one, two, ...other] = arr;
+// console.log(one, two, other);
+
+// Different property name
+
+// Default values
+
+// Nested Object
+// let obj = {
+//   name: "shaad",
+//   age: 22,
+//   religion: "Muslim",
+//   address: {
+//     city: "indore",
+//     pincode: 788745,
+//   },
+// };
+
+// let {
+//   name: myName,
+//   address: { pincode },
+// } = obj;
+// console.log(myName, pincode);
+
+// In Function
+
 let obj = {
-  //   name: "shaad",
-  age: 40,
-  inspiration: "israel adesanya",
+  name: "shaad",
+  age: 22,
+  religion: "Muslim",
   address: {
     city: "indore",
-    pincode: 278392,
+    pincode: 788745,
   },
 };
 
-let {
-  name: myName = "israel",
-  age: myAge,
-  address: { pincode },
-} = obj;
-console.log(myName, age, pincode);
+function print({ name, age, religion }) {
+  console.log(name, age, religion);
+}
+
+print(obj);
