@@ -341,6 +341,6 @@
 // let ans = [...arr3, ...arr2, ...arr1];
 // console.log(ans);
 
-let arr = [, , 3, 4];
-let [one = 200, two = 50, , , five = 100] = arr;
-console.log(one, two, five);
+// let arr = [, , 3, 4];
+// let [one = 200, two = 50, , , five = 100] = arr;
+// console.log(one, two, five);

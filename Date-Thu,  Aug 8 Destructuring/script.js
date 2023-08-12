@@ -203,3 +203,102 @@
 // }
 
 // printDetail(obj);
+
+// const obj = {
+//     name: "shaad",
+//   mobileNumber: 4248464864,
+//     email: "shaadalihashmi@gmail.com",
+//   address: {
+//     city: "jaipur",
+//     pincode: 473432,
+//   },
+// };
+
+// const { name: wow = "rishi", email: ruku = "jaya@gamil.com" } = obj;
+// console.log(wow, ruku);
+
+// The Spread Operator
+// Assigning values
+// Copy Array
+// Join 2 Arrays
+// String tarray using spread
+// Passing arguments in function
+// Shallow copy
+
+// const arr = [1, 2, 3, 4, 5];
+// const [one, two, ...other] = arr;
+// console.log(one, two, other);
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [...arr];
+// console.log(arr2);
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [10, 20, 30];
+// let arr3 = [...arr, ...arr2];
+// console.log(arr3);
+
+// let str = "wecode academy";
+// let ans = [...str];
+// console.log(ans);
+
+// function sum(...val) {
+//   console.log(val);
+//   let sum = 0;
+//   for (let i = 0; i < val.length; i++) {
+//     sum = sum + val[i];
+//   }
+//   console.log(sum);
+// }
+
+// sum(1, 2, 3, 4, 5, 2, 3, 54, 66, 56, 5, 65, 6);
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [...arr];
+// arr2.push(1000);
+// console.log(arr2, arr);
+
+// Assign values
+// Rest element last element
+// Assign values in object
+// Variable arguments in function
+
+// let obj = {
+//   name: "shaad",
+//   age: 35,
+//   class: 10,
+// };
+
+// let { name, ...other } = obj;
+// console.log(name, other);
+
+// let arr = [1, 2, 100, 4, 5];
+// function sum(a, b, c) {
+//   console.log(a + b + c);
+// }
+
+// sum(...arr);
+
+// Enhanced Object literals
+// Exactly same name
+// Function in object
+// Computer property name
+
+// let ans = +prompt("what is your age");
+// let obj = {
+//   name: "shaad",
+//   ["age" + ans]: 34,
+//   city: "jaipur",
+// };
+
+// console.log(obj);
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [100, 200];
+// let arr3 = [99, 55, 33];
+// let ans = [...arr3, ...arr1, ...arr2];
+// console.log(ans);
+
+// let arr = [, , 3, 4];
+// let [one = 50, two = 150, , , five = 200] = arr;
+// console.log(one, two, five);
