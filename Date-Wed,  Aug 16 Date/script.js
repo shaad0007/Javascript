@@ -1,4 +1,11 @@
-let now = new Date(2002);
-console.log(date);
-let ans = now.setDate(25);
+// let date = new Date();
+// console.log(
+//   `${date.getFullYear()} - ${date.getMonth() + 1} - ${date.getDay()}`
+// );
+
+function getcurrentDate() {
+  let date = new Date();
+  return `${date.getFullYear()} - ${date.getMonth() + 1} - ${date.getDay()}`;
+}
+let ans = getcurrentDate();
 console.log(ans);
