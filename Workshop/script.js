@@ -198,3 +198,14 @@
 
 // let ans = check(person);
 // console.log(ans);
+// console.log(Math.trunc(Math.random() * 10) + 1);
+
+// setInterval(() => {
+//   let date = new Date();
+
+//   document.write(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()} `);
+//   document.write(
+//     `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+//   );
+//   document.write("<br>");
+// }, 1000);
