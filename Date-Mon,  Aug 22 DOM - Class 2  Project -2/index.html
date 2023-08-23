@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .game {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
+    <div style="text-align: center" class="game">
+      <h2>Guess The Number Game</h2>
+      <input type="number" value="" id="guessInput" />
+      <button id="btn">Submit</button>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
