@@ -1,1 +1,1 @@
-console.log("shaad");
+alert("shaad");
