@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZTEexrHhxoGk_3iqmdUkfvovA0Y1sE7yfQg&usqp=CAU"
+    />
+  </head>
+  <body>
+    <h2>This is Form Tutorial</h2>
+
+    <form name="Form " action="backend.php" onsubmit="return validate()">
+      <div>
+        <label for="name">Name:</label>
+        <input type=" text" name="myName" id="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="role">Role:</label>
+
+        <input type=" text" name="myRole" maxlength="5" id="role" required />
+      </div>
+      <br />
+      <div>
+        <label for="email"> Email:</label>
+        <input type="email" name="Enter Your Email" id="email" required />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date: </label>
+        <input type="date" name="Date" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="bonus">Bonus: </label>
+        <input
+          type="number"
+          max="3000"
+          min="1000"
+          name="Bonus"
+          id="bonus"
+          required
+        />
+      </div>
+      <br />
+      <label for="checkbox">Are You Eligible ?: </label>
+      <div>
+        <input type="checkbox" name="checkbox" id="checkbox" checked required />
+      </div>
+      <br />
+      <div>
+        Gender: Male <input type="radio" name="Gender" /> Female
+        <input type="radio" name="Gender" /> Other
+        <input type="radio" name="Gender" />
+      </div>
+      <br />
+
+      <div>
+        <textarea
+          name="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Write About Yourself"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="car">Car:</label>
+        <select name="Car" id="car">
+          <option value="indica">Indica</option>
+          <option value="Swift" selected>Swift</option>
+          <option value="Toyota">Toyota</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
