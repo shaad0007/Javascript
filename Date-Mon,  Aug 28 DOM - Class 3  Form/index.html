@@ -34,21 +34,21 @@
     <h2>This is Form Tutorial</h2>
     <fieldset>
       <legend>Wecode Academy</legend>
-      <form name="Form " action="backend.php" onsubmit="return validate()">
+      <form name="Form ">
         <div>
           <label for="name">Name:</label>
-          <input type=" text" name="myName" id="name" required />
+          <input type=" text" name="myName" id="name" />
         </div>
         <br />
         <div>
           <label for="role">Role:</label>
 
-          <input type=" text" name="myRole" maxlength="10" id="role" required />
+          <input type=" text" name="myRole" maxlength="10" id="role" />
         </div>
         <br />
         <div>
           <label for="email"> Email:</label>
-          <input type="email" name="Enter Your Email" id="email" required />
+          <input type="email" name="Enter Your Email" id="email" />
         </div>
         <br />
         <div>
@@ -58,25 +58,12 @@
         <br />
         <div>
           <label for="bonus">Bonus: </label>
-          <input
-            type="number"
-            max="10000"
-            min="1000"
-            name="Bonus"
-            id="bonus"
-            required
-          />
+          <input type="number" max="10000" min="1000" name="Bonus" id="bonus" />
         </div>
         <br />
         <div>
           <label for="checkbox">Are You Eligible ?: </label>
-          <input
-            type="checkbox"
-            name="checkbox"
-            id="checkbox"
-            checked
-            required
-          />
+          <input type="checkbox" name="checkbox" id="checkbox" checked />
         </div>
         <br />
         <div>
@@ -91,6 +78,7 @@
             name="textarea"
             cols="30"
             rows="5"
+            id="textarea"
             placeholder="Write About Yourself"
           ></textarea>
         </div>
