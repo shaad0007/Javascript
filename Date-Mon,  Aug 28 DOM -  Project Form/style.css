@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --myfont: "Mulish", sans-serif;
+  --my-btn-font: "Montserrat", sans-serif;
+  -lg-lightcolor: linear-gradient(
+    to left,
+    rgba(116, 235, 213, 0.6),
+    rgba(159, 172, 230, 014)
+  );
+  --lg-color: linear-gradient(to left, #74ebd5, #9face6);
+}
+
+body {
+  /* background-image: var(--lg-light color), url('https://images.pexels.com/photos/325193/pexels-photo-325193.jpeg?auto-compress&cs-tinysrgb&dpr=2&h=7508w=1260') */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: var(--myfont);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container {
+
+ background-color:
+
+ border-radius: 10px;
+
+ -webkit-border-radius: 10px;
+
+
+
+box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.
+
+ -overflow: hidden;
+
+
+
+widt calc(100vw - 65vw);
+
+
+
+max-width: 100%;

@@ -8,79 +8,108 @@
       rel="icon"
       href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZTEexrHhxoGk_3iqmdUkfvovA0Y1sE7yfQg&usqp=CAU"
     />
+    <style>
+      body {
+        margin: 100px 300px;
+        /* background-color: #dbceeb; */
+      }
+      form {
+        margin: 0 auto;
+        text-align: center;
+        /* background-color: #dbceeb; */
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      fieldset {
+        border: 5px rgb(119, 82, 89) double;
+        background-color: #ece8e8;
+        border-radius: 50px;
+      }
+    </style>
   </head>
   <body>
     <h2>This is Form Tutorial</h2>
+    <fieldset>
+      <legend>Wecode Academy</legend>
+      <form name="Form " action="backend.php" onsubmit="return validate()">
+        <div>
+          <label for="name">Name:</label>
+          <input type=" text" name="myName" id="name" required />
+        </div>
+        <br />
+        <div>
+          <label for="role">Role:</label>
 
-    <form name="Form " action="backend.php" onsubmit="return validate()">
-      <div>
-        <label for="name">Name:</label>
-        <input type=" text" name="myName" id="name" required />
-      </div>
-      <br />
-      <div>
-        <label for="role">Role:</label>
+          <input type=" text" name="myRole" maxlength="10" id="role" required />
+        </div>
+        <br />
+        <div>
+          <label for="email"> Email:</label>
+          <input type="email" name="Enter Your Email" id="email" required />
+        </div>
+        <br />
+        <div>
+          <label for="date">Date: </label>
+          <input type="date" name="Date" id="date" />
+        </div>
+        <br />
+        <div>
+          <label for="bonus">Bonus: </label>
+          <input
+            type="number"
+            max="10000"
+            min="1000"
+            name="Bonus"
+            id="bonus"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="checkbox">Are You Eligible ?: </label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            checked
+            required
+          />
+        </div>
+        <br />
+        <div>
+          Gender: Male <input type="radio" name="Gender" /> Female
+          <input type="radio" name="Gender" /> Other
+          <input type="radio" name="Gender" />
+        </div>
+        <br />
 
-        <input type=" text" name="myRole" maxlength="5" id="role" required />
-      </div>
-      <br />
-      <div>
-        <label for="email"> Email:</label>
-        <input type="email" name="Enter Your Email" id="email" required />
-      </div>
-      <br />
-      <div>
-        <label for="date">Date: </label>
-        <input type="date" name="Date" id="date" />
-      </div>
-      <br />
-      <div>
-        <label for="bonus">Bonus: </label>
-        <input
-          type="number"
-          max="3000"
-          min="1000"
-          name="Bonus"
-          id="bonus"
-          required
-        />
-      </div>
-      <br />
-      <label for="checkbox">Are You Eligible ?: </label>
-      <div>
-        <input type="checkbox" name="checkbox" id="checkbox" checked required />
-      </div>
-      <br />
-      <div>
-        Gender: Male <input type="radio" name="Gender" /> Female
-        <input type="radio" name="Gender" /> Other
-        <input type="radio" name="Gender" />
-      </div>
-      <br />
-
-      <div>
-        <textarea
-          name="textarea"
-          cols="30"
-          rows="10"
-          placeholder="Write About Yourself"
-        ></textarea>
-      </div>
-      <br />
-      <div>
-        <label for="car">Car:</label>
-        <select name="Car" id="car">
-          <option value="indica">Indica</option>
-          <option value="Swift" selected>Swift</option>
-          <option value="Toyota">Toyota</option>
-        </select>
-      </div>
-      <br />
-      <div>
-        <input type="submit" value="Submit" />
-        <input type="reset" value="Reset" />
-      </div>
-    </form>
+        <div>
+          <textarea
+            name="textarea"
+            cols="30"
+            rows="5"
+            placeholder="Write About Yourself"
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <label for="myState">State:</label>
+          <select name="State" id="myState">
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="M.P">M.P</option>
+            <option value="Punjab">Punjab</option>
+          </select>
+        </div>
+        <br />
+        <div id="btn">
+          <button type="button" onclick="validate()">Submit</button>
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </fieldset>
 
     <script src="script.js"></script>
   </body>
