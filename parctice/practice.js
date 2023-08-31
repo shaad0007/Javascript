@@ -1064,6 +1064,4 @@ console.log(num === 10);*/
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 // function print((num)=>{
-arr.forEach((num) => {
-  console.log(num);
-});
+console.log("hello world");
