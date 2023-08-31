@@ -999,4 +999,71 @@ console.log(num === 10);*/
 //    4 5
 //     5
 
+// function hello() {
+//   alert("Hello World!");
+// }
+// for (let i = 1; i <= 10; i++) {
+//   if (i == 3) {
+//     console.log("baby");
+//     break;
+//   }
+//   console.log(i);
+// }
+// for (let i = 1; i <= 5; i++) {
+//   let str = "";
+//   for (let j = 1; j <= 5; j++) {
+//     str = str + j;
+//   }
+//   console.log(str);
+// }
 
+// for (let row = 1; row <= 5; row++) {
+//   let output = "";
+
+//   for (let num = 1; num <= row; num++) {
+//     output += num;
+//   }
+
+//   console.log(output);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let value of arr) {
+//   console.log(value);
+// }
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// let arr = new Array();
+// arr[0] = 68;
+// arr[1] = "harry";
+// arr[2] = true;
+// for (let g = 0; g < 3; g++) {
+//   arr[g] = prompt("eneter the value");
+//   //   console.log(arr);
+// }
+
+// for (let a = 0; a < 3; a++) {
+//   console.log(arr[a]);
+// }
+
+// let arr = new Array();
+// for (let g = 0; g < 3; g++) {
+//   arr[g] = prompt("enter the value");
+// }
+// for (let a = 0; a < 3; a++) {
+//   console.log(arr[a]);
+// }
+
+// let arr = ["shaad", "sorabh", "mosin", "sonu", "mosin"];
+// console.log(arr.lastIndexOf("mosin"));
+// arr[2] = "shaad";
+// console.log(arr);
+
+let arr = [1, 2, 3, 4, 5, 6, 7];
+// function print((num)=>{
+arr.forEach((num) => {
+  console.log(num);
+});
