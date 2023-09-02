@@ -1062,6 +1062,20 @@ console.log(num === 10);*/
 // arr[2] = "shaad";
 // console.log(arr);
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
+// let arr = [1, 2, 3, 4, 5, 6, 7];
 // function print((num)=>{
-console.log("hello world");
+// console.log("hello world");
+
+let obj = {
+  name: (myName = "shaad"),
+  sub: "eng",
+  phone: 9798758754,
+  address: "street 44",
+  city: "indore",
+  arr: [1, 2, 3, 4, 5],
+  sum() {
+    console.log("hello world");
+  },
+};
+console.log(obj);
+obj.sum();
