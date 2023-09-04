@@ -33,8 +33,10 @@
 
 // document.getElementById("demo").innerText = "<i>Fuck</i>";
 
-let arr = [1, 2, 3, 4, 5];
-arr.map((value) => {
-  return value * 10;
-});
-console.log(ans);
+// let arr = [1, 2, 3, 4, 5];
+// arr.map((value) => {
+//   return value * 10;
+// });
+
+// let date = new Date();
+// console.log(`${date.getDate()}:${date.getMonth()}:${date.getFullYear()}`);
