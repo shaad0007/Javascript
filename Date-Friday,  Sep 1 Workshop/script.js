@@ -1,4 +1,6 @@
-let element;
-document.getElementById("header").innerHTML = "<h2>Shaad</h2>";
-element = document.getElementById("header");
-console.log(element);
+let a = 0;
+setInterval((shift) => {
+  a += 10;
+  let target = document.getElementById("div");
+  target.style.marginLeft = a + "px";
+}, 1000);
