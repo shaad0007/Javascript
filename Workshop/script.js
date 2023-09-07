@@ -129,7 +129,7 @@
 // let thirdSon = "Jasim";
 // let secondSon = "Nadim";
 // let occupation = "Farmer";
-// let story = `Once upon a time, in a quaint village, lived four brothers - (${eldestBrotherName},${secondSon}, ${thirdSon}, ${fourthSon}). They were hardworking and compassionate (${occupation}), tilling the land their ancestors had tended for generations.
+let story = `Once upon a time, in a quaint village, lived four brothers - (${eldestBrotherName},${secondSon}, ${thirdSon}, ${fourthSon}). They were hardworking and compassionate (${occupation}), tilling the land their ancestors had tended for generations.
 
 // One day, a severe drought struck the village, leaving the fields parched and the crops withering away. The brothers were worried about their livelihood and the well-being of their fellow villagers. Despite their own struggles, they decided to help their community.
 

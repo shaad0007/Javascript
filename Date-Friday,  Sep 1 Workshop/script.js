@@ -6,5 +6,12 @@
 // }, 1000);
 // clearInterval();
 
-let a = "shaad";
-let b = "";
+// let a = "shaad";
+// let b = "shoreb";
+// console.log(`${a}/${b}`);
+
+sum = (a, b) => {
+  console.log(a + b);
+};
+
+sum(100, 100);
