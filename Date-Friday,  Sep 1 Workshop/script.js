@@ -10,8 +10,19 @@
 // let b = "shoreb";
 // console.log(`${a}/${b}`);
 
-sum = (a, b) => {
-  console.log(a + b);
-};
+// let sum = (a, b) => {
+//   console.log(a + b);
+// };
 
-sum(100, 100);
+// sum(100, 100);
+
+let i = 10;
+function test() {
+  // let i = 20;
+  console.log(i);
+  if (10 < 20) {
+    // let i = 30;
+    console.log(i);
+  }
+}
+test();
