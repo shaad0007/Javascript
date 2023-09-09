@@ -26,3 +26,5 @@ function test() {
   }
 }
 test();
+
+console.log("Hello Shaad");
