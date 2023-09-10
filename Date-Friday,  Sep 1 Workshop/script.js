@@ -27,4 +27,4 @@ function test() {
 }
 test();
 
-console.log("Hello Shaad");
+console.log("shaad");
