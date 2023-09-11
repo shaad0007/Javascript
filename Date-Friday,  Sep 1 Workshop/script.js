@@ -16,15 +16,16 @@
 
 // sum(100, 100);
 
-let i = 10;
-function test() {
-  // let i = 20;
-  console.log(i);
-  if (10 < 20) {
-    // let i = 30;
-    console.log(i);
-  }
-}
-test();
+// let i = 10;
+// function test() {
+//   // let i = 20;
+//   console.log(i);
+//   if (10 < 20) {
+//     // let i = 30;
+//     console.log(i);
+//   }
+// }
+// test();
 
-console.log("shaad");
+// console.log("shaad");
+(() => console.log("hello"))();
