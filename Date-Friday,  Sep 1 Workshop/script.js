@@ -28,4 +28,4 @@
 // test();
 
 // console.log("shaad");
-(() => console.log("hello"))();
+console.log("shaad")(() => console.log("hello"))();
