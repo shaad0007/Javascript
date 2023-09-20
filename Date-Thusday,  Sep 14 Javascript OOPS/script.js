@@ -3,3 +3,5 @@ function running(name) {
 }
 
 running("Dog");
+
+console.log("shaad");
