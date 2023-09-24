@@ -40,5 +40,3 @@ console.log(lion, parrot, Dog);
 
 // let HDFC = new account("shaad", 89432798427, 2397498, "shanti nagar", 50000);
 // console.log(HDFC);
-
-console.log("shaad");
