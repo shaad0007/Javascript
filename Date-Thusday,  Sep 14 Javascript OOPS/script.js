@@ -48,3 +48,12 @@
 //   }
 
 // }
+
+// let a = 10;
+// let b = 100 < 20 ? "hey" : "Fuck";
+// console.log(b);
+
+let arr = [1, 20, 3, 40, 5];
+let arr1 = [1000, 200];
+let arr3 = arr.join("*");
+console.log(arr3);
