@@ -57,3 +57,5 @@ let arr = [1, 20, 3, 40, 5];
 let arr1 = [1000, 200];
 let arr3 = arr.join("*");
 console.log(arr3);
+
+console.log("shaad");
