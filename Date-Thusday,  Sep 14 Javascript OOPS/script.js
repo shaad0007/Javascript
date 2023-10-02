@@ -46,16 +46,20 @@
 //   if (print % i === 0 && print % print === 0) {
 //     console.log(i);
 //   }
-
 // }
 
 // let a = 10;
 // let b = 100 < 20 ? "hey" : "Fuck";
 // console.log(b);
 
-let arr = [1, 20, 3, 40, 5];
-let arr1 = [1000, 200];
-let arr3 = arr.join("*");
-console.log(arr3);
+// let arr = [1, 20, 3, 40, 5];
+// let arr1 = [1000, 200];
+// let arr3 = arr.join("*");
+// console.log(arr3);
 
-console.log("shaad");
+// console.log("shaad");
+// for (let i = 1; i <= 10; i++) console.log(i);
+
+// let i = 1;
+// while (i <= 10) console.log(i);
+// i++;
