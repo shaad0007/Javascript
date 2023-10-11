@@ -209,9 +209,3 @@ let story = `Once upon a time, in a quaint village, lived four brothers - (${eld
 //   );
 //   document.write("<br>");
 // }, 1000);
-
-console.log("shaad");
-console.log("shaad");
-console.log("shaad");
-console.log("shaad");
-console.log("shaad");
